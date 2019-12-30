@@ -82,6 +82,9 @@ To run redis(by default):
 
 To run postgresql(by default):
 
+__Before running the following command, change user in app.py (line 112) to your MacOS username__
+
+
 `pg_ctl -D /usr/local/var/postgres start`
 
 Also, `postgresql` must have table `log` in database `chat`.  
