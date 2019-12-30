@@ -5,6 +5,7 @@
 ## Installation and running guide:
 Create virtual environment:  
 ```virtualenv -p python3 .  ```  
+
 ```source bin/activate ```
 
 To install dependencies, run:
