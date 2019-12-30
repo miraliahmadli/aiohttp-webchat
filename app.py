@@ -109,7 +109,7 @@ async def main():
     app['redis_pool'] = redis_pool
 
     # establishing connection to database named "chat"
-    conn = await asyncpg.connect(database='chat', host='127.0.0.1') # user='miraliahmadli'
+    conn = await asyncpg.connect(user='miraliahmadli', database='chat', host='127.0.0.1') # user='miraliahmadli'
     app['conn'] = conn
 
     # clean up
