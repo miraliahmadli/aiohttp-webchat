@@ -93,3 +93,6 @@ To automate this particular task, run:
 Finally, `python app.py` to run app
 
 Then access `localhost:8080` or `0.0.0.0:8080` to join chat room
+
+
+**Stop application** with `control` + `c` (`CTRL + C`) to quit
